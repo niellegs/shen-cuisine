@@ -91,3 +91,17 @@ Usuário Comum | Acessar receitas curtidas| Acessar com mais facilidade receitas
 
 
 **Prioridade: Alta / Média / Baixa. 
+
+### Requisitos Não Funcionais
+
+|ID     | Descrição do Requisito  |Prioridade |
+|-------|-------------------------|----|
+|RNF-01| A aplicação deve ser responsiva, para que os elementos do projeto se adaptem a diferentes resoluções de desktops e smartphones.  | ALTA | 
+|RNF-02| A aplicação deve garantir que o site seja intuitivo proporcionando uma experiência eficiente para os usuários | ALTA | 
+|RNF-03| A aplicação deve ser compatível com os principais navegadores web como o Google Chrome, firefox e Microsoft Edge | ALTA | 
+|RNF-04| A aplicação deve garantir que a plataforma esteja disponível 24/7 com tempo de inatividade para manutenção programada de 10 horas semanais em média  | MÉDIA | 
+|RNF-05| A aplicação deve permitir a criação de uma senha. | ALTA | 
+
+
+
+**Prioridade: Alta / Média / Baixa.
