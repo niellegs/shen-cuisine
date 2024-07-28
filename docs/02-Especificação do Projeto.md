@@ -85,4 +85,5 @@ Usuário Comum | Acessar receitas curtidas| Acessar com mais facilidade receitas
 |RF-10| A aplicação deve permitir que o usuário dê curtidas em receitas.  | BAIXA |
 |RF-11| A aplicação deve permitir que o usuário acesse suas receitas curtidas.  | BAIXA |
 
-**Prioridade: Alta / Média / Baixa.
+
+**Prioridade: Alta / Média / Baixa. 
