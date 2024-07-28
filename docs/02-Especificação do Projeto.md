@@ -11,7 +11,9 @@
 <td width="150px"><b>Descrição</b></td>
 <td width="600px">
 Usuários autorizados a remover, adicionar e editar o livro de receitas da família. Também possuem a permissão para tornar outros membros administradores de seu livro de receitas, também podendo escolher se o livro é apenas acessível à um grupo restrito de pessoas ou se é aberto ao público.
-<td>
+</td>
+</tr>
+<tr>
 <td><b>Necessidades</b></td>
 <td>
 1. Editar, remover e adicionar receitas ao livro de receitas;
@@ -32,7 +34,9 @@ Usuários autorizados a remover, adicionar e editar o livro de receitas da famí
 <td width="150px"><b>Descrição</b></td>
 <td width="600px">
 Usuários que possuem permissão apenas para visualizar receitas. Também podem comentar e dar notas para as receitas que possuem acesso.
-<td>
+</td>
+</tr>
+<tr>
 <td><b>Necessidades</b></td>
 <td>
 1. Ler as receitas, privadas e/ou públicas, que foram compartilhadas com o seu perfil;
@@ -56,7 +60,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                             |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
 |Usuário Administrador / Praticante| Cadastrar um perfil que possua meus dados | Acessar e compartilhar informações.
-|Usuário Administrador | Editar, remover e adicionar receitas ao meu livro de receitas  | Controlar e corrigir o conteúdo que eu e meu grupo compartilhamos |
+|Usuário Administrador | Editar, remover e adicionar receitas ao meu livro de receitas  | Controlar e corrigir o conteúdo que eu e meu grupo compartilhamos. |
 |Usuário Administrador | Editar, remover e adicionar participantes ao meu livro de receitas | Controlar e filtrar o acesso às receitas que pertencem a mim e à minha família.
 |Usuário Administrador | Gerenciar os privilégios dos membros que participam do meu livro de receitas | Ter maior controle sob as mudanças impostas por terceiros.
 !Usuário Administrador | Gerenciar a visibilidade do meu livro de receitas | Poder decidir quem tem a permissão de visualizar as informações compartilhadas.
