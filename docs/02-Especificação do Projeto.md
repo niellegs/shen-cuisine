@@ -5,24 +5,26 @@
 <table>
 <tbody>
 <tr>
-<th colspan="2"> Perfil 1: Usuários Administradores </th>
+<th colspan="2">Perfil 1: Usuários Administradores</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
 <td width="600px">
-Usuários autorizados a remover, adicionar e editar o livro de receitas da família. Também possuem a permissão para tornar outros membros administradores de seu livro de receitas, também podendo escolher se o livro é apenas acessível à um grupo restrito de pessoas ou se é aberto ao público.
+Usuários autorizados a remover, adicionar e editar o livro de receitas da família. Também possuem a permissão para tornar outros membros administradores de seu livro de receitas, também podendo escolher se o livro é apenas acessível a um grupo restrito de pessoas ou se é aberto ao público.
 </td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-1. Editar, remover e adicionar receitas ao livro de receitas;
-2. Editar, remover e adicionar participantes ao livro de receitas;
-3. Gerenciar os privilégios dos membros que participam do livro de receitas;
-4. Gerenciar a visibilidade do livro de receitas.
-<td>
+  <ol>
+ <li>Editar, remover e adicionar receitas ao livro de receitas;</li>
+ <li>Editar, remover e adicionar participantes ao livro de receitas;</li>
+ <li>Gerenciar os privilégios dos membros que participam do livro de receitas;</li>
+ <li>Gerenciar a visibilidade do livro de receitas.</li>
+  </ol>
+</td>
 </tr>
-<tbody>
+</tbody>
 </table>
 
 <table>
@@ -39,14 +41,16 @@ Usuários que possuem permissão apenas para visualizar receitas. Também podem 
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-1. Ler as receitas, privadas e/ou públicas, que foram compartilhadas com o seu perfil;
-2. Procurar por receitas do seu interesse;
-3. Comentar suas experiências e opiniões sobre as receitas;
-4. Avaliar com uma nota de um à cinco sua satisfação com a receita;
-5. Curtir receitas;
-<td>
+<ol>
+<li>Ler as receitas, privadas e/ou públicas, que foram compartilhadas com o seu perfil;</li>
+<li>Procurar por receitas do seu interesse;</li>
+<li>Comentar suas experiências e opiniões sobre as receitas;</li>
+<li>Avaliar com uma nota de um à cinco sua satisfação com a receita;</li>
+<li>Curtir receitas;</li>
+</ol>
+</td>
 </tr>
-<tbody>
+</tbody>
 </table>
 
 ## Histórias de Usuário
@@ -75,32 +79,33 @@ Usuário Comum | Acessar receitas curtidas| Acessar com mais facilidade receitas
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-01| A aplicação deve permitir que o usuário cadastre-se e faça login. | ALTA | 
-|RF-02| A aplicação deve permitir a adição, remoção e alteração de receitas pelo(s) seu(s) administrador(es).   | ALTA | 
-|RF-03| A aplicação deve permitir a adição, remoção e alteração de membros participantes do livro de receitas pelo(s) seu(s) administrador(es). | ALTA |
-|RF-04| A aplicação deve permitir ao(s) administrador(es) o gerenciamento de privilégios dos membros participantes do seu livro de receita. | ALTA |
-|RF-05| A aplicação deve permitir a alteração da visibilidade do livro de receitas pelo(s) seu(s) administrador(es). | ALTA |
-|RF-06| A aplicação deve permitir ao usuário ler as receitas, privadas e/ou públicas, que foram compartilhadas com o seu perfil.  | MÉDIA |
-|RF-07| A aplicação deve permitir aos usuários filtrar receitas do seu interesse por nome da receita, nome do livro e nome do autor do livro.  | ALTA |
-|RF-08| A aplicação deve permitir aos usuários comentarem suas experiências e opiniões sobre as receitas.  | MÉDIA |
-|RF-09| A aplicação deve permitir avaliar com uma nota de um à cinco sua satisfação com a receita  | BAIXA | 
-|RF-10| A aplicação deve permitir que o usuário dê curtidas em receitas.  | BAIXA |
-|RF-11| A aplicação deve permitir que o usuário acesse suas receitas curtidas.  | BAIXA |
+| ID   | Descrição do Requisito                                                                                              | Prioridade |
+|------|---------------------------------------------------------------------------------------------------------------------|------------|
+| RF-01| A aplicação deve permitir que o usuário cadastre-se e faça login.                                                  | ALTA       |
+| RF-02| A aplicação deve permitir a adição, remoção e alteração de receitas pelo(s) seu(s) administrador(es).            | ALTA       |
+| RF-03| A aplicação deve permitir a adição, remoção e alteração de membros participantes do livro de receitas.             | ALTA       |
+| RF-04| A aplicação deve permitir ao(s) administrador(es) o gerenciamento de privilégios dos membros participantes.         | ALTA       |
+| RF-05| A aplicação deve permitir a alteração da visibilidade do livro de receitas pelo(s) seu(s) administrador(es).       | ALTA       |
+| RF-06| A aplicação deve permitir ao usuário ler as receitas, privadas e/ou públicas, compartilhadas com seu perfil.      | MÉDIA      |
+| RF-07| A aplicação deve permitir os usuários filtrar receitas do seu interesse por nome da receita, nome do livro, autor. | ALTA       |
+| RF-08| A aplicação deve permitir aos usuários comentarem suas experiências e opiniões sobre as receitas.                 | MÉDIA      |
+| RF-09| A aplicação deve permitir avaliar com uma nota de um a cinco sua satisfação com a receita.                        | BAIXA      |
+| RF-10| A aplicação deve permitir que o usuário dê curtidas em receitas.                                                   | BAIXA      |
+| RF-11| A aplicação deve permitir que o usuário acesse suas receitas curtidas.                                            | BAIXA      |
+
 
 
 **Prioridade: Alta / Média / Baixa. 
 
 ### Requisitos Não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-01| A aplicação deve ser responsiva, para que os elementos do projeto se adaptem a diferentes resoluções de desktops e smartphones.  | ALTA | 
-|RNF-02| A aplicação deve garantir que o site seja intuitivo proporcionando uma experiência eficiente para os usuários | ALTA | 
-|RNF-03| A aplicação deve ser compatível com os principais navegadores web como o Google Chrome, firefox e Microsoft Edge | ALTA | 
-|RNF-04| A aplicação deve garantir que a plataforma esteja disponível 24/7 com tempo de inatividade para manutenção programada de 10 horas semanais em média  | MÉDIA | 
-|RNF-05| A aplicação deve permitir a criação de uma senha. | ALTA | 
+| ID     | Descrição do Requisito                                                                                                                            | Prioridade |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| RNF-01   | A aplicação deve ser responsiva, para que os elementos do projeto se adaptem a diferentes resoluções de desktops e smartphones.                    | ALTA       |
+| RNF-02 | A aplicação deve garantir que o site seja intuitivo proporcionando uma experiência eficiente para os usuários.                                 | ALTA       |
+| RNF-03 | A aplicação deve ser compatível com os principais navegadores web como o Google Chrome, Firefox e Microsoft Edge.                               | ALTA       |
+| RNF-04 | A aplicação deve garantir que a plataforma esteja disponível 24/7 com tempo de inatividade para manutenção programada de 10 horas semanais.    | MÉDIA      |
+| RNF-05 | A aplicação deve permitir a criação de uma senha.                                                                                               | ALTA       |
 
 
 
