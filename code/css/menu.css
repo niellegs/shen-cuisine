@@ -1,0 +1,71 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: "Libre Franklin Italic";
+    src: url("../fonts/Libre_Franklin/LibreFranklin-Italic-VariableFont_wght.ttf");
+}
+
+:root {
+    --searchbar: "Libre Franklin Italic";
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: rgba(255 , 255, 255, .3);
+    width: 100vw;
+    transition: ease-in-out .5s;
+}
+
+.header-scrolled {
+    background: rgba(255 , 255, 255, 1);
+    
+}
+/* NAVEGAÇÃO */
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar {
+    height:3rem;
+    width: 50vw;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    border: solid black .1rem;
+    font-family: var(--searchbar);
+    font-style: italic;
+}
+
+.searchbar:focus {
+    outline: none;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+}
+.search {
+    margin-left: -2vw;
+}
+
+.filter {
+    margin-left: 3vw;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.access {
+    padding: 1rem;
+    margin-right: 3vw;
+    background-color: transparent;
+    border: 0.13rem solid black;
+    border-radius: 1rem;
+    font-family: var(--titulo);
+}
